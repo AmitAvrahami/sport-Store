@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".UI.Fragments.ShopingCart">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Shopping cart :"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view_cart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        tools:listitem="@layout/item_in_cart_layout" />
+    <ProgressBar
+        android:id="@+id/progress_circular_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cart_details"
+        android:layout_width="wrap_content"
+        app:strokeColor="@color/black"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.09">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/total_item_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="total items count : "
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="total price : "
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/make_order_btn"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon= "@drawable/checkout_svgrepo_com"
+        app:iconSize = "24dp"
+        android:text="Make order"
+        android:layout_gravity="center"/>
+
+
+
+
+
+</LinearLayout>

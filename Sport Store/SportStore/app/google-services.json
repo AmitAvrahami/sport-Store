@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "378291025814",
+    "project_id": "sport-store-fb156",
+    "storage_bucket": "sport-store-fb156.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378291025814:android:ee1629e7cde47f6bea4fb7",
+        "android_client_info": {
+          "package_name": "com.example.sportstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1vwXffEiZiTK4kZF-oaAvEfSbcR5-kmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

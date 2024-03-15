@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_activity_2"
+    app:startDestination="@id/storeDetails">
+
+    <fragment
+        android:id="@+id/shopingCart"
+        android:name="com.example.sportstore.UI.Fragments.ShopingCart"
+        android:label="fragment_shoping_cart"
+        tools:layout="@layout/fragment_shoping_cart" >
+        <action
+            android:id="@+id/action_shopingCart_to_storeDetails"
+            app:destination="@id/storeDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/storeDetails"
+        android:name="com.example.sportstore.UI.Fragments.StoreDetails"
+        android:label="fragment_store_details"
+        tools:layout="@layout/fragment_store_details" >
+        <action
+            android:id="@+id/action_storeDetails_to_shopingCart"
+            app:destination="@id/shopingCart" />
+    </fragment>
+    <fragment
+        android:id="@+id/userOrderss"
+        android:name="com.example.sportstore.UI.Fragments.UserOrderss"
+        android:label="fragment_user_orderss"
+        tools:layout="@layout/fragment_user_orderss" />
+</navigation>

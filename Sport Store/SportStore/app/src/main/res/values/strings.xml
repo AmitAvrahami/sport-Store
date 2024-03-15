@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sport Store</string>
+    <string-array name="items_names">
+        <item>Basketball</item>
+        <item>Football</item>
+        <item>Table tennis racket</item>
+        <item>Pack of 6 ping pong balls</item>
+        <item>Running shirt for men</item>
+        <item>Running shirt for women</item>
+        <item>Sunglasses for hiking</item>
+        <item>Manual bicycle pump</item>
+        <item>35 liter sports bag</item>
+        <item>Backpack for trips 10 liters</item>
+        <item>Protective cover for bicycles</item>
+        <item>Smart watch</item>
+        <item>Microfiber towel</item>
+        <item>Stopwatch for running</item>
+        <item>Basketball shoes for men</item>
+    </string-array>
+    <string-array name="items_descriptions">
+        <item>Official basketball for indoor/outdoor play</item>
+        <item>Classic football for recreational use</item>
+        <item>High-quality racket for table tennis</item>
+        <item>Pack of 6 ping pong balls for practice</item>
+        <item>Breathable shirt for men\'s running</item>
+        <item>Comfortable shirt for women\'s running</item>
+        <item>Durable sunglasses for hiking adventures</item>
+        <item>Compact manual pump for inflating tires</item>
+        <item>Spacious sports bag with 35-liter capacity</item>
+        <item>Lightweight backpack ideal for short trips</item>
+        <item>Waterproof cover to protect bicycles</item>
+        <item>Multifunctional smartwatch with fitness tracking</item>
+        <item>Quick-drying microfiber towel for sports</item>
+        <item>Accurate stopwatch for tracking running times</item>
+        <item>Premium basketball shoes for men</item>
+    </string-array>
+    <string-array name="items_prices">
+        <item>25.99</item>
+        <item>19.99</item>
+        <item>39.99</item>
+        <item>9.99</item>
+        <item>29.99</item>
+        <item>27.99</item>
+        <item>49.99</item>
+        <item>14.99</item>
+        <item>34.99</item>
+        <item>19.99</item>
+        <item>29.99</item>
+        <item>149.99</item>
+        <item>9.99</item>
+        <item>12.99</item>
+        <item>79.99</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

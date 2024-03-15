@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/store_icon"
+        android:title="store"
+        android:enabled="true"
+        android:icon="@drawable/store_1_svgrepo_com"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/shopping_cart_icon"
+        android:enabled="true"
+        android:icon="@drawable/shopping_cart_svgrepo_com"
+        android:title="Shopping cart"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/orders_icon"
+        android:enabled="true"
+        android:title="Order histories"
+        android:icon="@drawable/carry_out_svgrepo_com"
+        android:iconTint="@color/black"/>
+
+
+
+</menu>

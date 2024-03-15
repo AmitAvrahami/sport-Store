@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginToStore">
+
+    <fragment
+        android:id="@+id/loginToStore"
+        android:name="com.example.sportstore.UI.Fragments.LoginToStore"
+        android:label="fragment_login_to_store"
+        tools:layout="@layout/fragment_login_to_store" >
+        <action
+            android:id="@+id/action_loginToStore_to_registarToStore2"
+            app:destination="@id/registarToStore2"
+            app:popUpTo="@id/loginToStore" />
+        <action
+            android:id="@+id/action_loginToStore_to_userInStoreActivity"
+            app:destination="@id/userInStoreActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/registarToStore2"
+        android:name="com.example.sportstore.UI.Fragments.RegistarToStore"
+        android:label="fragment_registar_to_store"
+        tools:layout="@layout/fragment_registar_to_store" >
+        <action
+            android:id="@+id/action_registarToStore2_to_loginToStore"
+            app:destination="@id/loginToStore"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <activity
+        android:id="@+id/userInStoreActivity"
+        android:name="com.example.sportstore.UserInStoreActivity"
+        android:label="activity_user_in_store"
+        tools:layout="@layout/activity_user_in_store" />
+</navigation>

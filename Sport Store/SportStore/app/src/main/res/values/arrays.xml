@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images_List">
+        <item>@drawable/basketball</item>
+        <item>@drawable/football</item>
+        <item>@drawable/tennis</item>
+        <item>@drawable/ping_pong_balls</item>
+        <item>@drawable/mens_shirt</item>
+        <item>@drawable/womens_shirt</item>
+        <item>@drawable/sunglasses</item>
+        <item>@drawable/pump</item>
+        <item>@drawable/bag</item>
+        <item>@drawable/trips_bag</item>
+        <item>@drawable/cover</item>
+        <item>@drawable/smart_watch</item>
+        <item>@drawable/towel</item>
+        <item>@drawable/stop_watch</item>
+        <item>@drawable/basketball_shoes</item>
+    </array>
+</resources>
